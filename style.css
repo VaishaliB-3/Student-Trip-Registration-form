@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    padding: 38px;
+    margin:auto;
+}
+.container h1,p{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+input, textarea {
+    display: block;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 11px 0px;
+}
+.btn{
+    border-radius: 10px;
+    border: 2px solid;
+    cursor: pointer;
+    padding: 8px 12px;
+    color: white;
+    background: purple;
+}
+.bt{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.6;
+}
+.submitmsg{
+ color: brown;
+    font-size: 20px;
+}
